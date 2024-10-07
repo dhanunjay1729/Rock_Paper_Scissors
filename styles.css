@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+h1{
+    text-align: center;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.player{
+    border: black 10px solid;
+    border-radius: 20px;
+}
+.player1{
+    background-color: skyblue;
+    height: 280px;
+    width: 600px;
+    margin-bottom: 30px;
+}
+.question{
+    background-image: url('https://tse2.mm.bing.net/th?id=OIP.HvzLMHbwvE0-gtL0xH8NKgHaHa&pid=Api');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 250px;
+    width: 250px;
+    margin-left: 150px;
+    margin-top: 9px;
+    border: black 8px solid;
+    border-radius: 60px;
+
+}
+.question:hover{
+    border: green 8px solid;
+}
+.player2{
+    background-color: greenyellow;
+    height: 280px;
+    width: 600px;
+    display: flex;
+    align-items: center;
+    margin-top: 30px;
+}
+.rock{
+    background-image: url('./rock.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.scissor{
+    background-image: url('https://tse2.mm.bing.net/th?id=OIP.i43mA43RbDLBDvRJUz6b8gHaHa&pid=Api');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.paper{
+    background-image: url('https://tse2.mm.bing.net/th?id=OIP.Fkd0Hnbvb1_fQJOs39NnLAHaHa&pid=Api');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.option{
+    width: 150px;
+    height: 150px;
+    border: black solid 5px;
+    border-radius: 20px;
+    margin: 20px;
+}
+.option:hover{
+    border: magenta solid 5px;
+}
+.qrock{
+    background-image: url('./rock.jpg');
+}
+.qscissor{
+    background-image: url('https://tse2.mm.bing.net/th?id=OIP.i43mA43RbDLBDvRJUz6b8gHaHa&pid=Api');
+
+}
+.qpaper{
+    background-image: url('https://tse2.mm.bing.net/th?id=OIP.Fkd0Hnbvb1_fQJOs39NnLAHaHa&pid=Api');
+}
+button{
+    background-color: red;
+    color: white;
+    font-size: 20px;
+    height: 30px;
+    width: 80px;
+    border: black 3px solid;
+    border-radius: 20px;
+}
